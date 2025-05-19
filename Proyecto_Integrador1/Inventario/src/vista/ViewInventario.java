@@ -4,19 +4,42 @@
  */
 package vista;
 
+import controlador.DaoInventario;
+import java.util.List;
+import javax.swing.table.DefaultTableModel;
+
+import modelo.Inventario;
+
 /**
  *
  * @author User
  */
 public class ViewInventario extends javax.swing.JPanel {
 
-    /**
-     * Creates new form Entrada
-     */
+    //Inventario in = new Inventario();
+    DaoInventario daoIn = new DaoInventario();
+    // mostrar datos en la tabla compra
+    //DefaultTableModel modeloInventario = new DefaultTableModel();
     public ViewInventario() {
         initComponents();
+        //listarInventario();
+        daoIn.cargarProductosEnTabla(tblInventario);
     }
-
+//    private void listarInventario(){
+//        List<Inventario> listaIn = daoIn.Listar();
+//        modeloInventario = (DefaultTableModel) tblInventario.getModel();
+//        Object[] ob = new Object[4];
+//        for(int i=0; i< listaIn.size(); i++){
+//            ob[0] = listaIn.get(i).getId_inventario();
+//            ob[1] = listaIn.get(i).getId_producto();
+//            ob[2] = listaIn.get(i).getProducto();
+//            ob[3] = listaIn.get(i).getStock_actual();
+//            
+//            
+//            modeloInventario.addRow(ob);
+//        }
+//        tblInventario.setModel(modeloInventario);
+//    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -28,7 +51,7 @@ public class ViewInventario extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        tblInventario = new javax.swing.JTable();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -39,7 +62,7 @@ public class ViewInventario extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(0, 153, 102));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tblInventario.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -47,7 +70,7 @@ public class ViewInventario extends javax.swing.JPanel {
                 "id_iventario", "id_producto", "producto", "stock_actual"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(tblInventario);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -144,8 +167,8 @@ public class ViewInventario extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField4;
     private RSMaterialComponent.RSButtonMaterialIconDos rSButtonMaterialIconDos3;
+    private javax.swing.JTable tblInventario;
     // End of variables declaration//GEN-END:variables
 }

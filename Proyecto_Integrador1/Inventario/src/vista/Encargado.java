@@ -79,7 +79,7 @@ public class Encargado extends javax.swing.JFrame {
         });
 
         btnInventario.setBackground(new java.awt.Color(0, 153, 153));
-        btnInventario.setText("Iventario");
+        btnInventario.setText("Inventario");
         btnInventario.setBackgroundHover(new java.awt.Color(51, 51, 0));
         btnInventario.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.DNS);
         btnInventario.addActionListener(new java.awt.event.ActionListener() {
@@ -220,7 +220,7 @@ public class Encargado extends javax.swing.JFrame {
         btnRSalidas.setSelected(true);
         btnInventario.setSelected(false);
         
-        Salidas sa = new Salidas();
+        RegistroSalidas sa = new RegistroSalidas();
         sa.setSize(749,650);
         sa.setLocation(0,0);
         

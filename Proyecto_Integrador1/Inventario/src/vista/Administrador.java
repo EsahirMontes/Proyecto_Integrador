@@ -104,7 +104,7 @@ public class Administrador extends javax.swing.JFrame {
         });
 
         btnInventario.setBackground(new java.awt.Color(102, 102, 0));
-        btnInventario.setText("Iventario");
+        btnInventario.setText("Inventario");
         btnInventario.setBackgroundHover(new java.awt.Color(51, 51, 0));
         btnInventario.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.DNS);
         btnInventario.addActionListener(new java.awt.event.ActionListener() {
@@ -293,7 +293,7 @@ public class Administrador extends javax.swing.JFrame {
         btnInventario.setSelected(false);
         btnReportes.setSelected(false);
         
-        Salidas sa = new Salidas();
+        RegistroSalidas sa = new RegistroSalidas();
         sa.setSize(749,650);
         sa.setLocation(0,0);
         
@@ -313,7 +313,7 @@ public class Administrador extends javax.swing.JFrame {
         btnInventario.setSelected(false);
         btnReportes.setSelected(false);
         
-        Entradas en = new Entradas();
+        RegistroEntradas en = new RegistroEntradas();
         en.setSize(749,650);
         en.setLocation(0,0);
         

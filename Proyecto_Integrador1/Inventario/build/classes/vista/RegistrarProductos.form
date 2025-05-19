@@ -29,11 +29,11 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="btnGuardarC2" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="txtEditarCat" min="-2" pref="112" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="btnGuardarC3" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="btnBuscarC" min="-2" pref="112" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="btnGuardarC4" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="btnEliminarC" min="-2" pref="112" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
@@ -81,9 +81,9 @@
                       <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnGuardarC2" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                          <Component id="btnGuardarC3" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                          <Component id="btnGuardarC4" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="txtEditarCat" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="btnBuscarC" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="btnEliminarC" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Component id="jPanel5" min="-2" pref="158" max="-2" attributes="0"/>
@@ -133,23 +133,17 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                                   <Component id="txtIdC" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <EmptySpace min="155" pref="155" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtMarcaP" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
-                                      <Component id="txtNomP" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
-                                      <Component id="txtIdP" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMarcaP" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="txtNomP" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                              <Component id="txtIdP" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="58" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -280,11 +274,11 @@
               </Group>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                  <Component id="btnGuardarC5" min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="btnEditarPro" min="-2" pref="112" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnGuardarC6" min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="btnBuscarP" min="-2" pref="112" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnGuardarC7" min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="btnEliminarP" min="-2" pref="112" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -296,9 +290,9 @@
                   <Component id="jScrollPane2" min="-2" pref="281" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnGuardarC5" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                      <Component id="btnGuardarC6" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                      <Component id="btnGuardarC7" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="btnEditarPro" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="btnBuscarP" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="btnEliminarP" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -326,46 +320,55 @@
                   </Table>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblProductosMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
-        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC6">
+        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnBuscarP">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Editar"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
             <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-              <Value id="SAVE"/>
+              <Value id="SEARCH"/>
             </Property>
             <Property name="round" type="int" value="25"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC6ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarPActionPerformed"/>
           </Events>
         </Component>
-        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC7">
+        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnEliminarP">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="cc" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
             <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-              <Value id="SAVE"/>
+              <Value id="DELETE"/>
             </Property>
             <Property name="round" type="int" value="25"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC7ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarPActionPerformed"/>
           </Events>
         </Component>
-        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC5">
+        <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnEditarPro">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Buscar"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Editar"/>
             <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-              <Value id="SAVE"/>
+              <Value id="EDIT"/>
             </Property>
             <Property name="round" type="int" value="25"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarProActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
@@ -504,6 +507,9 @@
                   </Table>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblCategoriasMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -511,43 +517,49 @@
     </Container>
     <Component class="javax.swing.JSeparator" name="jSeparator1">
     </Component>
-    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC2">
+    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="txtEditarCat">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Buscar"/>
-        <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-          <Value id="SAVE"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="cc" type="rgb"/>
         </Property>
-        <Property name="round" type="int" value="25"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC2ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC3">
-      <Properties>
         <Property name="text" type="java.lang.String" value="Editar"/>
         <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-          <Value id="SAVE"/>
+          <Value id="EDIT"/>
         </Property>
         <Property name="round" type="int" value="25"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEditarCatActionPerformed"/>
       </Events>
     </Component>
-    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnGuardarC4">
+    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnBuscarC">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+        <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
+          <Value id="SEARCH"/>
+        </Property>
+        <Property name="round" type="int" value="25"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarCActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="RSMaterialComponent.RSButtonMaterialIconDos" name="btnEliminarC">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="cc" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Eliminar"/>
         <Property name="icons" type="rojeru_san.efectos.ValoresEnum$ICONS" editor="org.netbeans.modules.form.editors.EnumEditor">
-          <Value id="SAVE"/>
+          <Value id="DELETE"/>
         </Property>
         <Property name="round" type="int" value="25"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarC4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarCActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

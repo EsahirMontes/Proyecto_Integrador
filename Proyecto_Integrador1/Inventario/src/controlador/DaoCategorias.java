@@ -72,4 +72,69 @@ public class DaoCategorias {
         }
         return listaC;
     }
+    
+    public boolean editar(Categorias c){
+       //String checkSQL = "select count(*) from categorias where nombre_categoria = ?;";
+        String SQL ="update categorias set nombre_categoria = ? where id_categoria = ?;";
+        try{
+            con = cn.conectar();// hacemos la conexion a la BD
+            
+            ps = con.prepareStatement(SQL);
+            ps.setString(1,c.getNombre_categoria());
+            ps.setInt(2,c.getId_categoria());
+            int n = ps.executeUpdate();
+            
+            if(n!=0){
+                return true;
+            }else{
+                return false;
+            }
+        }catch(Exception e){
+            JOptionPane.showConfirmDialog(null, e);
+            return false;
+        } 
+    }
+    
+    public boolean eliminar(Categorias c){
+        String SQL ="delete from categorias where id_categoria = ?;";
+        try{
+            con = cn.conectar();// hacemos la conexion a la BD
+            
+            ps = con.prepareStatement(SQL);
+            ps.setInt(1,c.getId_categoria());
+            
+            int n = ps.executeUpdate();
+            
+            if(n!=0){
+                return true;
+            }else{
+                return false;
+            }
+        }catch(Exception e){
+            JOptionPane.showConfirmDialog(null, e);
+            return false;
+        } 
+    }
+    public boolean buscar(Categorias c){
+        String SQL ="select * from categorias where id_categoria = ?;";
+        try{
+            con = cn.conectar();// hacemos la conexion a la BD
+            
+            ps = con.prepareStatement(SQL);
+            ps.setInt(1,c.getId_categoria());
+            
+            rs = ps.executeQuery();
+            
+            if(rs.next()){
+                c.setId_categoria(rs.getInt(1));
+                c.setNombre_categoria(rs.getString(2));
+                return true;
+            }else{
+                return false;
+            }
+        }catch(Exception e){
+            JOptionPane.showConfirmDialog(null, e);
+            return false;
+        }
+    }
 }
